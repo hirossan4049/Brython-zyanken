@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testBrython</title>
+<!--    <script src="http://brython.info/src/brython_dist.js"></script>-->
+    <script src="https://cdn.rawgit.com/brython-dev/brython/3.4.0/www/src/brython.js"></script>
+</head>
+<body onload="brython()">
+<script type="text/python" src="zyanken.py"></script>
+<div class="main_area">
+    <h1>じゃんけん</h1>
+<!--    <a href="#" id="submit_button">press！</a>-->
+    <div id="result"></div>
+    <img id="cpu_img" src="static/images/robot.png" width="200" height="200">
+    <div id="user_result">User:</div>
+    <img id="user_img" src="static/images/user.png" width="200" height="200">
+    <br>
+    <br>
+    <h2 id="zyanken_result">結果:</h2>
+<!--    <input id="guu_inpt" type="image" src="static/images/guu.png" alt="ぐー" width="100" height="100">-->
+    <button id="guu_inpt"><img src="static/images/guu.png" alt="ぐー" width="100" height="100"></button>
+    <input id="tyoki_inpt" type="image" src="static/images/tyoki.png" alt="ちょき" width="100" height="100">
+    <input id="paa_inpt" type="image" src="static/images/paa.png" alt="ぱー" width="100" height="100">
+
+    <h2>説明</h2>
+    <p>ぐーちょきぱー押せば勝手にじゃんけんしやがります。</p>
+    <p>負けても文句言いやがらないでください。</p>
+
+</div>
+</body>
+</html>
