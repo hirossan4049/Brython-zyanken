@@ -1,15 +1,8 @@
 import random
 # from browser import document, ajax, bind
 import browser
-import time
-# import threading
 # https://www.sozai-library.com/policy
-try:
-#     import requests
-    import urllib.request
-    impt = "OK!"
-except Exception as e:
-    impt = "NO....:(" + str(e)
+
 
 zyanken_path = {
     "ぐー":"static/images/guu.png",
